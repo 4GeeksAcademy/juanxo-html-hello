@@ -12,11 +12,12 @@
 }
 
 .puntitos{
-    
+    margin-right
 }
 
 .post-header¨{
-
+    display flex: center;
+    justify-content: center;
 }
 
 .post-img {
