@@ -4,6 +4,16 @@
 
 .post{
     background-color: white;
+    border: 1px solid black;
+    margin-top: 400px;
+    margin-bottom: 400px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.puntitos{
+    
+}
 
 .post-header¨{
 
