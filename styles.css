@@ -1,47 +1,56 @@
-.body{
+.body {
     background-color: black;
-    
+
 }
 
-.post{
+.post {
     background-color: white;
-    /*border: 2px dashed blue;*/
+   /*border: 2px dashed blue;*/
     margin-top: 50px;
     margin-bottom: 400px;
     margin-right: 400px;
     margin-left: 400px;
 }
 
-.puntitos{
-   
+.puntitos {
+    margin-left: 480px;
 }
 
 .post-header {
-   display: inline; 
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;
-}
-
-.post-img {
-
-}
-
-.post-body {
-
-}
-.icono-guadado {
+    width:98%;
+    height: 80px;
+    padding: 5px;
     display: flex;
-    margin-left: 95%;
-}
-.post-icon{
-    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-items: space-between;*/
 }
 
-.tamaño-iconos{
-    display: inline;
-    /*justify-content: center*/
+.post-img {}
+
+.post-body {}
+
+.post-icon {
+    display: flex;
+    flex-direction: row;
+    /*align-items: baseline;*/
+}
+
+.icono-guardado {
+   margin-left: 70%;
+}
+
+.tamaño-iconos {
     font-size: 40px;
-    border: 2px dashed blue;
+}
+
+.Nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;  
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;  
 }
